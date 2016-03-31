@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A632E8BB1CAD084300109309 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A632E8BA1CAD084300109309 /* main.m */; };
+		A632E8BE1CAD084300109309 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A632E8BD1CAD084300109309 /* AppDelegate.m */; };
+		A632E8C11CAD084300109309 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A632E8C01CAD084300109309 /* ViewController.m */; };
+		A632E8C61CAD084300109309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A632E8C51CAD084300109309 /* Assets.xcassets */; };
+		A632E8D41CAD084300109309 /* GirdViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A632E8D31CAD084300109309 /* GirdViewTests.m */; };
+		A632E8DF1CAD084300109309 /* GirdViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A632E8DE1CAD084300109309 /* GirdViewUITests.m */; };
+		A632E8F11CAD08D700109309 /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = A632E8F01CAD08D700109309 /* GridView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A632E8D01CAD084300109309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A632E8AE1CAD084300109309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A632E8B51CAD084300109309;
+			remoteInfo = GirdView;
+		};
+		A632E8DB1CAD084300109309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A632E8AE1CAD084300109309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A632E8B51CAD084300109309;
+			remoteInfo = GirdView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A632E8B61CAD084300109309 /* GirdView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GirdView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A632E8BA1CAD084300109309 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A632E8BC1CAD084300109309 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A632E8BD1CAD084300109309 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A632E8BF1CAD084300109309 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A632E8C01CAD084300109309 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A632E8C51CAD084300109309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A632E8CA1CAD084300109309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A632E8CF1CAD084300109309 /* GirdViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GirdViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A632E8D31CAD084300109309 /* GirdViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GirdViewTests.m; sourceTree = "<group>"; };
+		A632E8D51CAD084300109309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A632E8DA1CAD084300109309 /* GirdViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GirdViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A632E8DE1CAD084300109309 /* GirdViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GirdViewUITests.m; sourceTree = "<group>"; };
+		A632E8E01CAD084300109309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A632E8EF1CAD08D700109309 /* GridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridView.h; sourceTree = "<group>"; };
+		A632E8F01CAD08D700109309 /* GridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A632E8B31CAD084300109309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A632E8CC1CAD084300109309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A632E8D71CAD084300109309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A632E8AD1CAD084300109309 = {
+			isa = PBXGroup;
+			children = (
+				A632E8B81CAD084300109309 /* GirdView */,
+				A632E8D21CAD084300109309 /* GirdViewTests */,
+				A632E8DD1CAD084300109309 /* GirdViewUITests */,
+				A632E8B71CAD084300109309 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A632E8B71CAD084300109309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A632E8B61CAD084300109309 /* GirdView.app */,
+				A632E8CF1CAD084300109309 /* GirdViewTests.xctest */,
+				A632E8DA1CAD084300109309 /* GirdViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A632E8B81CAD084300109309 /* GirdView */ = {
+			isa = PBXGroup;
+			children = (
+				A632E8BC1CAD084300109309 /* AppDelegate.h */,
+				A632E8BD1CAD084300109309 /* AppDelegate.m */,
+				A632E8BF1CAD084300109309 /* ViewController.h */,
+				A632E8C01CAD084300109309 /* ViewController.m */,
+				A632E8EF1CAD08D700109309 /* GridView.h */,
+				A632E8F01CAD08D700109309 /* GridView.m */,
+				A632E8C51CAD084300109309 /* Assets.xcassets */,
+				A632E8CA1CAD084300109309 /* Info.plist */,
+				A632E8B91CAD084300109309 /* Supporting Files */,
+			);
+			path = GirdView;
+			sourceTree = "<group>";
+		};
+		A632E8B91CAD084300109309 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A632E8BA1CAD084300109309 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A632E8D21CAD084300109309 /* GirdViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A632E8D31CAD084300109309 /* GirdViewTests.m */,
+				A632E8D51CAD084300109309 /* Info.plist */,
+			);
+			path = GirdViewTests;
+			sourceTree = "<group>";
+		};
+		A632E8DD1CAD084300109309 /* GirdViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A632E8DE1CAD084300109309 /* GirdViewUITests.m */,
+				A632E8E01CAD084300109309 /* Info.plist */,
+			);
+			path = GirdViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A632E8B51CAD084300109309 /* GirdView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A632E8E31CAD084300109309 /* Build configuration list for PBXNativeTarget "GirdView" */;
+			buildPhases = (
+				A632E8B21CAD084300109309 /* Sources */,
+				A632E8B31CAD084300109309 /* Frameworks */,
+				A632E8B41CAD084300109309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GirdView;
+			productName = GirdView;
+			productReference = A632E8B61CAD084300109309 /* GirdView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A632E8CE1CAD084300109309 /* GirdViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A632E8E61CAD084300109309 /* Build configuration list for PBXNativeTarget "GirdViewTests" */;
+			buildPhases = (
+				A632E8CB1CAD084300109309 /* Sources */,
+				A632E8CC1CAD084300109309 /* Frameworks */,
+				A632E8CD1CAD084300109309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A632E8D11CAD084300109309 /* PBXTargetDependency */,
+			);
+			name = GirdViewTests;
+			productName = GirdViewTests;
+			productReference = A632E8CF1CAD084300109309 /* GirdViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A632E8D91CAD084300109309 /* GirdViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A632E8E91CAD084300109309 /* Build configuration list for PBXNativeTarget "GirdViewUITests" */;
+			buildPhases = (
+				A632E8D61CAD084300109309 /* Sources */,
+				A632E8D71CAD084300109309 /* Frameworks */,
+				A632E8D81CAD084300109309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A632E8DC1CAD084300109309 /* PBXTargetDependency */,
+			);
+			name = GirdViewUITests;
+			productName = GirdViewUITests;
+			productReference = A632E8DA1CAD084300109309 /* GirdViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A632E8AE1CAD084300109309 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "马了个马里奥";
+				TargetAttributes = {
+					A632E8B51CAD084300109309 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A632E8CE1CAD084300109309 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A632E8B51CAD084300109309;
+					};
+					A632E8D91CAD084300109309 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A632E8B51CAD084300109309;
+					};
+				};
+			};
+			buildConfigurationList = A632E8B11CAD084300109309 /* Build configuration list for PBXProject "GirdView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A632E8AD1CAD084300109309;
+			productRefGroup = A632E8B71CAD084300109309 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A632E8B51CAD084300109309 /* GirdView */,
+				A632E8CE1CAD084300109309 /* GirdViewTests */,
+				A632E8D91CAD084300109309 /* GirdViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A632E8B41CAD084300109309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A632E8C61CAD084300109309 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A632E8CD1CAD084300109309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A632E8D81CAD084300109309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A632E8B21CAD084300109309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A632E8C11CAD084300109309 /* ViewController.m in Sources */,
+				A632E8BE1CAD084300109309 /* AppDelegate.m in Sources */,
+				A632E8F11CAD08D700109309 /* GridView.m in Sources */,
+				A632E8BB1CAD084300109309 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A632E8CB1CAD084300109309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A632E8D41CAD084300109309 /* GirdViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A632E8D61CAD084300109309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A632E8DF1CAD084300109309 /* GirdViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A632E8D11CAD084300109309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A632E8B51CAD084300109309 /* GirdView */;
+			targetProxy = A632E8D01CAD084300109309 /* PBXContainerItemProxy */;
+		};
+		A632E8DC1CAD084300109309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A632E8B51CAD084300109309 /* GirdView */;
+			targetProxy = A632E8DB1CAD084300109309 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A632E8E11CAD084300109309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A632E8E21CAD084300109309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A632E8E41CAD084300109309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GirdView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayesquire.GirdView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A632E8E51CAD084300109309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GirdView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayesquire.GirdView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A632E8E71CAD084300109309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GirdViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayesquire.GirdViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GirdView.app/GirdView";
+			};
+			name = Debug;
+		};
+		A632E8E81CAD084300109309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GirdViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayesquire.GirdViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GirdView.app/GirdView";
+			};
+			name = Release;
+		};
+		A632E8EA1CAD084300109309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GirdViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayesquire.GirdViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GirdView;
+			};
+			name = Debug;
+		};
+		A632E8EB1CAD084300109309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GirdViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rayesquire.GirdViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GirdView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A632E8B11CAD084300109309 /* Build configuration list for PBXProject "GirdView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A632E8E11CAD084300109309 /* Debug */,
+				A632E8E21CAD084300109309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A632E8E31CAD084300109309 /* Build configuration list for PBXNativeTarget "GirdView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A632E8E41CAD084300109309 /* Debug */,
+				A632E8E51CAD084300109309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A632E8E61CAD084300109309 /* Build configuration list for PBXNativeTarget "GirdViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A632E8E71CAD084300109309 /* Debug */,
+				A632E8E81CAD084300109309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A632E8E91CAD084300109309 /* Build configuration list for PBXNativeTarget "GirdViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A632E8EA1CAD084300109309 /* Debug */,
+				A632E8EB1CAD084300109309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A632E8AE1CAD084300109309 /* Project object */;
+}
